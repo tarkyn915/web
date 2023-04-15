@@ -1,0 +1,50 @@
+body {
+  background-size: cover;
+  background-image: url(/img/d1.jpg);
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .35);
+  font-size: 52px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-top: 270px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  color: #fff;
+  background-color: #000;
+
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  background-color:rgb(231, 195, 74) ;
+  border-collapse: separate; border-radius: 50px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

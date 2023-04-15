@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream</title> 
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="img/GTA5.png">
+
+</head>
+<body>
+<!-- time start -->
+    <h1 id="time" class="time"></h1>
+    <script>
+    function updateTime() {
+      var today = new Date();
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      document.getElementById("time").innerHTML = time;
+    }
+    setInterval(updateTime, 1000);
+    </script>
+<!-- time end -->
+
+<table align="center" border="0">
+  <tr>
+    <td><a href="https://www.bing.com" target="_blank">Bing</a></td>
+    <td><a href="https://www.google.com" target="_blank">Google</a></td>
+    <td><a href="https://www.baidu.com" target="_blank">Baidu</a></td>
+    <td><a href="https://fanyi.baidu.com/" target="_blank">百度翻译</a></td>
+    <td><a href="https://translate.google.com/?hl=zh-CN" target="_blank">谷歌翻译</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.icloud.com/" target="_blank">iCloud</a></td>
+    <td><a href="https://www.notion.so/zh-cn" target="_blank">Notion</a></td>
+    <td><a href="https://ping.pe/" target="_blank">测试IP和端口</a></td>
+    <td><a href="https://tools.ipip.net/traceroute.php" target="_blank">路由去程测试</a></td>
+    <td><a href="https://www.linuxcool.com/" target="_blank">Linux命令手册</a></td>
+  </tr>
+  <tr>
+    <td><a href="/opage/link.html" target="_blank">Link</a></td>
+    <td><a href="/opage/movie.html" target="_blank">Movie</a></td>
+    <td><a href="/opage/game.html" target="_blank">Game</a></td>
+    <td><a href="/opage/download.html" target="_blank">Download</a></td>
+    <td><a href="http://tjqq.de:8008" target="_blank">哪吒探针</a></td>
+  </tr>
+</table>
+
+
+</body>
+</html>
