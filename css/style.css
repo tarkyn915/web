@@ -1,6 +1,23 @@
 body {
   background-size: cover;
-  background-image: url(/img/d1.jpg);
+}
+
+
+.hide-block>.hide-button.open,
+.hide-inline>.hide-button.open {
+    display: block
+}
+
+html,
+img {
+  cursor: url(/img/mouse1.cur), auto
+}
+
+
+a,
+button,
+img {
+    cursor: url(/img/mouse2.cur), auto
 }
 
 h1 {
@@ -10,21 +27,25 @@ h1 {
   font-size: 52px;
   margin-top: 30px;
   margin-bottom: 10px;
-  padding-top: 270px;
-  padding-bottom: 20px;
+  padding-top: 380px;
+  padding-bottom: 40px;
+  background: linear-gradient(to right, rgba(140, 51, 182, 0.76),rgb(209, 44, 214),rgb(47, 69, 194),rgb(68, 194, 89),rgb(209, 137, 79),rgb(207, 76, 67)); -webkit-background-clip: text; color: transparent;
 }
 
 a {
   color: #000;
   text-decoration: none;
-  font-size: 25px;
-  
+  font-size: 35px;
+  transform: scale(1.2,.1.2);
+  transition: all 0.8s ease;
 }
 a:hover {
-  color: #fff;
-  background-color: #000;
+  color: #d14ca9b7;
   text-decoration: underline;
-  text-decoration: none
+  text-decoration: none;
+  font-size: 55px;
+  transform: scale(1.2,.1.2);
+  transition: all 0.5s ease;
 }
 
 
@@ -37,10 +58,42 @@ table {
 }
 
 td {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: white;
 }
 
+
+
+
+h1{
+  background: linear-gradient(to right, rgba(140, 51, 182, 0.76),rgb(209, 44, 214),rgb(47, 69, 194),rgb(68, 194, 89),rgb(209, 137, 79),rgb(207, 76, 67)); -webkit-background-clip: text; color: transparent;
+  font-size: 52px;
+  /* 字间距 */
+  letter-spacing: 5px;
+  /* 转大写 */
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 5px;
+  outline: none;
+  /* 自定义属性--c，可通过var函数对其调用 */
+  --c:lightseagreen;
+  /* 调用自定义属性--c，设置文字阴影（发光效果） */
+  text-shadow: 1 0 1px var(--c),
+  0 0 20px var(--c),
+  0 0 40px var(--c),
+  0 0 80px var(--c),
+  0 0 160px var(--c);
+  /* 执行动画：动画名 时长 线性的 无限次播放 */
+  animation: animate 8s linear infinite;
+}
+
+/* 定义动画 */
+@keyframes animate {
+  to{
+      /* 色相旋转滤镜（设置度数可改变颜色） */
+      filter: hue-rotate(360deg);
+  }
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
     <link rel="stylesheet" href="/css/link.css">
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/GTA5.png">
 </head>
 <body>
 <div class="container">
@@ -30,5 +30,24 @@
 
     </ul>
 </div> 
+
+<script type="text/javascript">
+    //<!CDATA[
+        var bodyBgs = [];
+        bodyBgs[0] = "/img/d1.jpg";
+        bodyBgs[1] = "/img/d2.jpg";
+        bodyBgs[2] = "/img/d3.jpg";
+        bodyBgs[3] = "/img/d4.jpg";
+        bodyBgs[4] = "/img/d5.jpg";
+  
+        var randomBgIndex = Math.round( Math.random() * 4 );
+  
+    //输出随机的背景图
+        document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
+    //]]>
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundSize = "cover";
+  </script>
+
 </body>
 </html>
