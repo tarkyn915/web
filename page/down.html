@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Download</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+
+            <li><a href="/">Blog</a></li>
+            <li><a href="/page/eng.html">English</a></li>
+            <li><a href="/page/linux.html">Linux</a></li>
+            <li><a href="/page/down.html">Downloads</a></li>
+            <li><a href="https://vps.tjq.one/" target="_blank">Linux Panel</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>日常</h2>
+            <ul>
+                <li><a href="https://www.notion.so/" target="_blank">notion</a></li>
+                <li><a href="https://rime.im/" target="_blank">RIME | 中州韻輸入法引擎</a></li>
+                <li><a href="https://bitwarden.com/" target="_blank">bitwarden</a></li>
+                <li><a href="https://fanyi.youdao.com/" target="_blank">有道翻译</a></li>
+                <li><a href="https://weixin.qq.com/" target="_blank">微信</a></li>
+                <li><a href="https://office.qq.com/" target="_blank">TIM</a></li>
+                <li><a href="https://www.google.com/intl/en/chrome/" target="_blank">Chrome</a></li>
+                <li><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></li>
+                <li><a href="https://www.aliyundrive.com/" target="_blank">阿里云盘</a></li>
+                <li><a href="https://pan.baidu.com/" target="_blank">百度网盘</a></li>
+                <li><a href="https://www.xunlei.com/" target="_blank">迅雷</a></li>
+                <li><a href="https://www.qbittorrent.org/" target="_blank">qBittorrent</a></li>
+                <li><a href="https://www.bluestacks.com/" target="_blank">bluestacks</a></li>
+                <li><a href="https://telegram.org/" target="_blank">telegram</a></li>
+                <li><a href="https://obsproject.com/" target="_blank">obs</a></li>
+                <li><a href="https://potplayer.tv/" target="_blank">potplayer</a></li>
+                <li><a href="https://discord.com/" target="_blank">Discord</a></li>
+                <li><a href="https://www.teamspeak.com/en/" target="_blank">Teamspeak</a></li>
+                <li><a href="https://code.visualstudio.com/" target="_blank">VScode</a></li>
+                <li><a href="https://typora.io/" target="_blank">typora</a></li>
+                <li><a href="https://www.xshell.com/zh/" target="_blank">xshell</a></li>
+                <li><a href="https://calibre-ebook.com/" target="_blank">calibre</a></li>
+                <li><a href="https://github.com/Eugeny/tabby" target="_blank">tabby</a></li>
+                <li><a href="https://github.com/electerm/electerm" target="_blank">electerm</a></li>
+                <li><a href="https://www.superso.top/Adobe/" target="_blank">Adobe破解软件</a></li>
+                <li><a href="https://www.wandoujia.com/" target="_blank">豌豆荚</a></li>
+                <li><a href="https://www.capcut.cn/" target="_blank">剪映</a></li>
+                <li><a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a></li>
+                <li><a href="https://git-scm.com/" target="_blank">git-scm</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/windows/powertoys/" target="_blank">Microsoft PowerToys</a></li>
+                <li><a href="https://www.natfrp.com/" target="_blank">SAKURA FRP</a></li>
+                <li><a href="https://rclone.org/" target="_blank">Rclone</a></li>
+
+
+            </ul>
+        </section>
+        <section>
+            <h2>Special</h2>
+            <ul>
+                <li><a href="https://github.com/2dust/v2rayN" target="_blank">V2rayN</a></li>
+
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>System</h2>
+            <ul>
+                <li><a href="https://next.itellyou.cn/" target="_blank">itellyou</a></li>
+                <li><a href="https://www.wepe.com.cn/" target="_blank">微PE工具箱</a></li>
+                <li><a href="https://www.ludashi.com/" target="_blank">鲁大屎</a></li>
+                <li><a href="https://www.logitechg.com/zh-cn/innovation/g-hub.html" target="_blank">G HUB</a></li>
+                <li><a href="https://www.amd.com/en/support" target="_blank">AMD Support</a></li>
+                <li><a href="https://www.nvidia.com/Download/index.aspx" target="_blank">NVIDIA Driver</a></li>
+                <li><a href="https://www.nvidia.cn/geforce/broadcasting/broadcast-app/" target="_blank">NVIDIA Broadcast</a></li>
+                <li><a href="https://www.cpuid.com/" target="_blank">CPUZ</a></li>
+                <li><a href="https://www.techpowerup.com/gpuz/" target="_blank">GPUZ</a></li>
+                <li><a href="https://www.aida64.com/" target="_blank">AIDA64</a></li>
+                <li><a href="https://www.msi.com/Landing/afterburner/graphics-cards" target="_blank">MSI AFTERBURNER</a></li>
+                <li><a href="https://www.ventoy.net/cn/index.html" target="_blank">Ventoy</a></li>
+                <li><a href="https://iperf.fr/iperf-download.php" target="_blank">iPerf3</a></li>
+
+
+            </ul>
+        </section>
+
+
+    </main>
+            <!-- IP INFO API -->
+            <div id="result"></div>
+            <script type="text/javascript">
+            function callback(ip, location, asn, org)
+            {
+                var html = `${ip}<br/>${location}<br/>${asn}<br/>${org}<br/>`;
+                document.getElementById('result').innerHTML = html;
+            }
+            </script>
+            <script type="text/javascript" src="https://ping0.cc/geo/jsonp/callback"></script>
+            <!-- IP INFO API DOWN-->
+             
+<div id="result">
+    <P><SMALL>Copyright (C) 2023 Tarkyn</SMALL></P>
+</div>
+
+</body>
+
+</html>
