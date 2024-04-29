@@ -1,0 +1,103 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif,'Open Sans', sans-serif;
+    background-color: #1B1F25;
+    color:#adbac7;
+}
+
+/* 未访问的链接 */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(190, 15, 97, 0.651);
+}
+
+/* 已访问的链接 */
+a:visited {
+    color: rgba(133, 135, 151, 0.411);
+}
+
+TH {
+    font-size: 80%
+}
+
+TD {
+    font-size: 100%
+}
+
+H1 {
+    text-align: center;
+    font-size: 140%
+}
+
+H2 {
+    text-align: center;
+    font-size: 120%
+}
+
+H4 {
+    font-size: 100%
+}
+
+TD.NewsText {
+    font-size: 70%
+}
+
+A.MenuLink {
+    text-align: left;
+    font-weight: bold;
+    color: #337DFF;
+    text-decoration: none
+}
+
+A.MenuLink:hover {
+    color: green
+}
+
+.MenuCurrent {
+    text-align: left;
+    font-weight: bold
+}
+
+TD.MenuColumn {
+    background-color: #25282A;
+    width: 120px
+}
+
+TD.Layout {
+    background-color: white
+}
+
+TH.Title {
+    background-color: #2F5F1F
+}
+
+TD.Item {
+    background-color: #25282A
+}
+
+TD.SubItem {
+    background-color: #FFFFFF
+}
+
+TD.ExternalProgram {
+    background-color: #E8D0E8
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    /* 设置最大宽度，避免在大屏幕上过分拉伸 */
+    margin: 0 auto;
+    /* 居中显示 */
+    padding: 20px;
+}
+
+/* 在移动端缩小字体大小 */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
